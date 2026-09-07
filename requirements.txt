@@ -1,0 +1,4 @@
+numpy>=1.24
+matplotlib>=3.7
+ase>=3.22
+pymatgen>=2023.9

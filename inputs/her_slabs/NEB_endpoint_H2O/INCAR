@@ -1,0 +1,33 @@
+ALGO = Normal
+EDIFF = 1e-06
+EDIFFG = -0.02
+ENCUT = 520
+IDIPOL = 3
+ISIF = 2
+ISMEAR = 0
+ISPIN = 2
+IVDW = 12
+LDAU = True
+LDAUJ = 0.0 0.0 0.0
+LDAUL = 2 -1 -1
+LDAUPRINT = 1
+LDAUTYPE = 2
+LDAUU = 3.32 0.0 0.0
+LDIPOL = True
+LMAXMIX = 4
+LORBIT = 11
+LREAL = Auto
+LWAVE = False
+NELM = 200
+PREC = Accurate
+SIGMA = 0.05
+ISYM = 0
+MAGMOM = 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+IBRION = 1
+NSW = 300
+LCHARG = False
+KPAR = 2
+NCORE = 8
+DIPOL = 0.5 0.5 0.5094
+# NEB endpoint 00 relaxation - water dissociation, alkaline Volmer step
+# 2026-08-28 restart (ran out of ionic steps)

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Co4
+_chemical_formula_sum              "Co4"
+_cell_length_a       2.472967256131386
+_cell_length_b       2.4729657536535523
+_cell_length_c       7.974986386946561
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000628062844
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.0  0.0  0.0  1.0000
+  Co  Co2       1.0  0.3333330000000032  0.6666669999999968  0.24999514000000292  1.0000
+  Co  Co3       1.0  0.0  0.0  0.5  1.0000
+  Co  Co4       1.0  0.6666669999999968  0.3333330000000032  0.7500028600000023  1.0000

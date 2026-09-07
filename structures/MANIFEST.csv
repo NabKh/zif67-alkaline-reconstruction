@@ -1,0 +1,28 @@
+label,group,formula,natoms,E0_eV,total_moment_muB,converged,Fmax_eV_per_A,source_directory,description
+beta-Co(OH)2,bulk,H2CoO2,5,-27.54283,3.000,yes,0.0123,2_bulk/co_oh2/relax2,"layered hydroxide, Jahn-Teller distorted insulating ground state, P1"
+beta-CoOOH,bulk,HCoO2,4,-23.18192,0.000,yes,0.0001,2_bulk/cooh_spintest/ls,"oxyhydroxide, low-spin Co(III), R-3m"
+Co3O4,bulk,Co6O8,14,-88.84783,0.000,yes,0.0104,2_bulk/co3o4/relax2,"normal spinel, mixed-valent antiferromagnet"
+Co_hcp,bulk,Co4,4,-29.80445,6.549,yes,0.0000,2_bulk/co_metal/relax2,hcp cobalt metal
+Co1.00Ni0.00OOH_x000,mixing,H4Co4O8,16,-92.72567,-0.000,yes,0.0003,4_oer_slabs/mixing/x000,"beta-CoOOH, 16-atom cell (x = 0.00)"
+Co0.75Ni0.25OOH_x025,mixing,H4Co3NiO8,16,-89.20580,1.000,yes,0.0164,4_oer_slabs/mixing/x025,one Ni per 4 formula units (x = 0.25)
+Co0.50Ni0.50OOH_x050,mixing,H4Co2Ni2O8,16,-86.17167,2.000,yes,0.0149,4_oer_slabs/mixing/x050,two Ni per 4 formula units (x = 0.50)
+Co0.00Ni1.00OOH_x100,mixing,H4Ni4O8,16,-78.69812,4.000,yes,0.0018,4_oer_slabs/mixing/x100,beta-NiOOH (x = 1.00)
+ZIF-67_FM,framework,C48H60Co6N24,138,-897.05059,18.000,yes,0.0243,3_zif67/fm,"sodalite ZIF-67, ferromagnetic, 138-atom primitive cell"
+ZIF-67_AFM,framework,C48H60Co6N24,138,-897.07158,0.000,yes,0.0274,3_zif67/afm,"sodalite ZIF-67, antiferromagnetic GROUND STATE"
+OER_clean,oer_slabs,H16Co16O32,64,-360.81145,-0.000,yes,0.0149,4_oer_slabs/clean_ls,beta-CoOOH(01-12) clean termination
+OER_OH,oer_slabs,H17Co16O33,66,-371.71563,-1.000,yes,0.0171,4_oer_slabs/oh_ls,*OH intermediate
+OER_O_oxo,oer_slabs,H16Co16O33,65,-366.15532,2.000,yes,0.0147,4_oer_slabs/u_sensitivity/oxo_fm_o,"*O intermediate, Co(IV)=O oxo GROUND STATE (use this, not o_ls)"
+OER_O_radical_rejected,oer_slabs,H16Co16O33,65,-365.01736,-0.000,yes,0.0175,4_oer_slabs/o_ls,"*O from unseeded spin: OXYGEN RADICAL, 1.14 eV too high - rejected"
+OER_OOH,oer_slabs,H17Co16O34,67,-376.03954,1.000,yes,0.0184,4_oer_slabs/ooh_ls,*OOH intermediate
+OER_Ni_clean,oer_slabs,H16Co15NiO32,64,-358.57205,-1.000,yes,0.0185,4_oer_slabs/ni_clean_ls,Ni-substituted clean termination
+OER_Ni_OH,oer_slabs,H17Co15NiO33,66,-368.48428,-0.000,yes,0.0138,4_oer_slabs/site_search/oer_ni_onCo,*OH on the Co adjacent to Ni (the winning site)
+HER_CoOOH_clean,her_slabs,H16Co16O32,64,-360.81145,-0.000,yes,0.0149,4_oer_slabs/clean_ls,"same beta-CoOOH(01-12) slab, used as the H* reference"
+HER_CoOOH_H,her_slabs,H17Co16O32,65,-362.72765,1.000,yes,0.0103,5_her_slabs/cooh_0112_h,"H* on beta-CoOOH(01-12), 0.25 ML"
+HER_CoOH2_clean,her_slabs,H32Co16O32,80,-436.76882,48.000,yes,0.0185,5_her_slabs/co_oh2_001_clean,beta-Co(OH)2(001) clean
+HER_CoOH2_H_025ML,her_slabs,H33Co16O32,81,-438.12470,47.000,NO,0.0371,5_her_slabs/co_oh2_001_h_025ml,H* at 0.25 ML
+HER_CoOH2_H_050ML,her_slabs,H34Co16O32,82,-440.56998,46.000,yes,0.0176,5_her_slabs/co_oh2_001_h_050ml,H* at 0.50 ML
+NEB_endpoint_H2O,her_slabs,H18Co16O33,67,-373.57613,0.000,yes,0.0158,5_her_slabs/neb_water_dissociation/relax_00,water dissociation endpoint: H2O intact on the cus Co
+NEB_endpoint_OH_H,her_slabs,H18Co16O33,67,-373.27294,0.000,yes,0.0143,5_her_slabs/neb_water_dissociation/relax_06,water dissociation endpoint: dissociated OH* + H*
+H2,molecules,H2,2,-6.77491,0.000,yes,0.0008,1_molecules/h2,H2
+H2O,molecules,H2O,3,-14.24198,-0.000,yes,0.0179,1_molecules/h2o,H2O
+Hmim,molecules,C4H6N2,12,-74.90383,0.000,yes,0.0156,1_molecules/hmim,"2-methylimidazole, gas phase"

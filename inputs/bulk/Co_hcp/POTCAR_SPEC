@@ -1,0 +1,5 @@
+# Concatenate these PAW PBE POTCARs IN THIS ORDER:
+  {PSP_DIR}/potpaw_PBE.54/Co/POTCAR
+
+# e.g.
+# cat $PSP/Co/POTCAR > POTCAR
